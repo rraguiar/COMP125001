@@ -1,0 +1,81 @@
+﻿<!DOCTYPE html>
+<!--
+    CENTENNIAL COLLEGE
+    COMP125 - Client Side Development - JavaScript
+   
+    Assignment 2 - Summer 2019
+    Author: Rafael Aguiar
+    Student id: 301041266
+    Date: June/03/2019
+    
+    Assignment: JavaScript drawing table into HTML
+
+    Filenames:
+    HTML: assignment2.html
+    JavaScript: assignment2.js
+    Styles: assignment2Styles.css
+ -->
+<html>
+<head lang="en" dir="ltr">
+    <meta content="text/html" charset="utf-8" http-equiv="content-type" />
+    <title>Assignment 2 - JavaScript drawing table on HTML</title>
+    <meta content="JavaScript, Java, Script, JavaScript table, table" name="keywords">
+    <meta content="Example of using JavaScript to draw table into HTML" name="description">
+    <link href="assignment2Styles.css" rel="stylesheet" />
+    <link href='http://fonts.googleapis.com/css?family=Lily+Script+One' rel='stylesheet' type='text/css'>
+    <script src="modernizr.custom.05819.js"></script>
+	<style type="text/css">
+	</style>
+</head>
+<body id="top">
+    <div id="allPage">
+        <header style="position: relative; left: 0px; top: 0px; width: 980px; height: 100px;">
+        <h1>Assignment 2 - Table Generator</h1>
+            <nav>
+    <ul>
+        <li><a href="#top"><img alt="Home" height="30" src="images/home2.gif" width="100"></a>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</li>
+        <li><a href="mailto:johndoe@centennialcollege.ca">
+	<img alt="Contact" height="30" src="images/contact2.gif" width="100"></a></li>
+    </ul>
+</nav>
+</header>
+        <article style="position: relative; left: 0px; width: 980px; height: 80px;">
+            <h2>Insert lines and columns to draw the table:</h2>
+            <form>
+                <label for="txtRows">Rows</label>
+                <input id="txtRows" name="tableInfo" tabindex="1" type="number" />
+                <label for="txtColumns">Columns</label>
+                <input id="txtColumns" name="tableInfo" tabindex="3" type="number" />
+                <p></p>
+            </form>
+        </article>
+        <output id="plotTable" style="position: relative; left: 0px; width: 980px;">
+<!--Table will be plotted by JavaScript inside this tag -->
+        </output>
+        <footer style="position: relative; left: 0px; top: 20px; width: 980px; height: 100px; z-index: 5">
+<nav>
+    <ul>
+	<li><a href="#top"><img alt="Home" height="30" src="images/home2.gif" width="100"></a></li>
+	<li><a href="mailto:johndoe@centennialcollege.ca">
+	<img alt="Contact" height="30" src="images/contact2.gif" width="100"></a>&nbsp;&nbsp;&nbsp;
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	</li>
+    <li><a href="../index.html"><img alt="BackToIndex" height="30" src="images/index2.gif" width="140"></a></li>
+    </ul>
+</nav>
+	<h6 id="copyright">&copy;&nbsp;Copyright Rafael Rodrigues de Aguiar - Student# 301041266 - COMP125-001 - Assignment 2 - Table Generator</h6>
+</footer>
+    </div>
+    <script src="assignment2.js"></script>
+</body>
+</html>
+

@@ -1,0 +1,88 @@
+﻿/*    CENTENNIAL COLLEGE
+ *    COMP125 - Client Side Development - JavaScript
+ *    
+ *    Assignment 2 - Summer 2019
+ *    Author: Rafael Aguiar
+ *    Student id: 301041266
+ *    Date: June/03/2019
+ *    
+ *    Assignment: JavaScript drawing table into HTML
+ *    
+ *    Filenames:
+ *    HTML: assignment2.html
+ *    JavaScript: assignment2.js
+ *    Styles: assignment2Styles.css
+ */
+
+body {
+    background-image: url('images/gradientBG.png');
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#allPage {
+    margin-right: auto;
+    margin-left: auto;
+    width: 980px;
+    position: relative;
+}
+header {
+    background-image: url('images/table1Resized.png');
+    background-repeat: no-repeat;
+    background-color: #B0CE80;
+}
+
+h1 {
+    padding-left: 165px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #F1FDDF;
+    font-weight: bolder;
+    font-size: large;
+}
+
+header nav ul li {
+    display: inline-block;
+    padding-left: 140px;
+}
+form label{
+    margin-left: 20px;
+}
+article {
+    text-align: center;
+}
+Table {
+    text-align: center;
+    background-color: #D0DBD0;
+    font-size: small;
+    font-weight: lighter;
+    margin-right: auto;
+    margin-left: auto;
+}
+footer {
+    background-image: url('images/drawtableResized.png');
+    background-color: #B0CE80;
+    background-repeat: no-repeat;
+    background-position: right;
+    padding: 5px;
+}
+
+    footer nav ul li {
+        display: inline-block;
+        z-index: 2;
+        padding-left: 0px;
+        padding-right: 10px;
+    }
+
+h6 {
+    padding-left: 5px;
+}
+
+#copyright {
+    font-weight: lighter;
+}
+
+img {
+    border-width: 0px;
+}

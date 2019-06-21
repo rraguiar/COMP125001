@@ -1,0 +1,128 @@
+﻿body {
+	background-image: url('images/gradientBG.png');
+	font-family: Arial, Helvetica, sans-serif;
+}
+#allPage {
+	margin-right: auto;
+	margin-left: auto;
+	width: 980px;
+	position: relative;
+}
+header {
+	background-image: url('images/bmrcalculator-resized.png');
+	background-repeat: no-repeat;
+	background-color: #B0CE80;
+}
+h1 {
+	padding-left: 125px;
+}
+nav ul li a {
+	text-decoration: none;
+	color: #F1FDDF;
+	font-weight: bolder;
+	font-size: large;
+}
+
+header nav ul li {
+	display: inline-block;
+	padding-left:100px;
+}
+h2 {
+	padding-left: 85px;
+}
+article nav ul li {
+	border-color: #003300;
+	display: inline-block;
+	padding: 8px 15px;
+	margin: 0 3px;
+	background: #A4C270;
+	border-top-width: 2px;
+	border-right-width: 3px;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-left-style: solid;
+	border-left-width: 1px;
+}
+nav ul #currentpage {
+	background: #668033;
+	color: white;
+}
+form {
+	border: 2px solid #668033;
+	margin-bottom: 5px;
+	margin-left: 5px;
+	padding-top:10px;
+	padding-left: 20px;
+}
+#btnCalculate {
+	height: 30px;
+	font-size: large;
+	text-align: center;
+	font-weight: bold;
+	margin-left: 200px;
+	margin-top: 5px;
+}
+#txtHeightInches {
+	margin-left: 59px;
+}
+#txtWeightPounds {
+	margin-left: 35px;	
+}
+#TextContent {
+	background-color: #D1EAAC;
+}
+h3 {
+	font-size: large;
+	font-weight: bold;
+	font-variant: small-caps;
+	text-transform: capitalize;
+	text-align: center;
+}
+p {
+	font-size: medium;
+	text-align: justify;
+	text-indent: 15px;
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-top: 10px;
+	word-spacing: 2px;
+}
+.hiddenBox {
+    visibility: hidden;
+}
+aside {
+	background-color: #B0CE80;
+	width: 335px;
+	padding-top: 3px;
+	padding-bottom: 3px;
+	margin-left: 20px;
+}
+table {
+	font-size: x-large;
+	vertical-align: middle;
+	text-align: center;
+	width: 315px;
+	margin-left: 10px;
+}
+footer {
+	background-image: url('images/bmr-resized.png');
+	background-color: #B0CE80;
+	background-repeat: no-repeat;
+	background-position: right;
+	padding: 5px;
+}
+footer nav ul li {
+	display: inline-block;
+	z-index: 2;
+	padding-left: 0px;
+	padding-right: 10px;
+}
+h6 {
+	padding-left: 5px;
+}
+#copyright {
+	font-weight: lighter;
+}
+img {
+	border-width: 0px;
+}
