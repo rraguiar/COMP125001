@@ -98,7 +98,7 @@ function replaceFavorites() {
     var index = favInventory.length;
     index--;
     var lastElement = index;
-    
+    ///
     //var savePoint;
     console.log("********* REPLACE FAVORITES AFTER DELETE PICTURE PRESSED:  *********");
     console.log("Favorite to be deleted: " + favIdentity);

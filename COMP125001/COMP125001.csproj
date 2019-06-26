@@ -291,6 +291,7 @@
     <Content Include="Test\a3zoom.htm" />
     <Content Include="Test\a3zoom.js" />
     <Content Include="Web.config" />
+    <Content Include="Week08-LabEx\HTMLForm.html" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
