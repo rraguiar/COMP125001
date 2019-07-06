@@ -261,6 +261,7 @@
     <Content Include="COMP125Assignment2\assignment2Styles.css" />
     <Content Include="COMP125Assignment2\assignment2.html" />
     <Content Include="COMP125Assignment2\assignment2.js" />
+    <Content Include="COMP125Assignment4\Membership.js" />
     <Content Include="COMP125Assignment2\images\bmr.jpg" />
     <Content Include="COMP125Assignment2\images\bmr.png" />
     <Content Include="COMP125Assignment2\images\contact.gif" />
@@ -284,6 +285,11 @@
     <Content Include="COMP125Assignment3\zoom.css" />
     <Content Include="COMP125Assignment3\zoom.htm" />
     <Content Include="COMP125Assignment3\zoom.js" />
+    <Content Include="COMP125Assignment4\images\CC50thAnniversary.jpg" />
+    <Content Include="COMP125Assignment4\images\trilliumgradient.png" />
+    <Content Include="COMP125Assignment4\modernizr.custom.05819.js" />
+    <Content Include="COMP125Assignment4\Membership.html" />
+    <Content Include="COMP125Assignment4\MembershipStyles.css" />
     <Content Include="Test\a3photos.css" />
     <Content Include="Test\a3photos.js" />
     <Content Include="Test\a3photos.htm" />
@@ -297,6 +303,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="COMP125Assignment4\images\Thumbs.db" />
     <None Include="packages.config" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
