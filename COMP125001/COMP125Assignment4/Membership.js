@@ -179,7 +179,7 @@ function submitProfile(){
         profileEmail.style.color = "black";
         profileName.innerHTML = prfName;
         profileEmail.innerHTML = prfEmail;
-
+        validationForm = 10;
     }
     else {
         emailError.style.display = "block";
