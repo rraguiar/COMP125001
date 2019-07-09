@@ -19,9 +19,9 @@
 
 <head>
 <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
-<title>Week 10 Class Example</title>
-<meta content="HTML form, COMP213" name="keywords">
-<meta content="Example of using an HTML form." name="description">
+<title>Membership Registration</title>
+<meta content="HTML form, COMP125" name="keywords">
+<meta content="Example of using validation on an HTML form." name="description">
 <link href="MembershipStyles.css" rel="stylesheet" type="text/css">
 </head>
 
@@ -32,10 +32,11 @@
 	Centennial College - Registration Form</h1>
 </header>
     <fieldset>
+        <legend>Create Profile</legend>
 <form action="mailto:jdoe37@my.centennialcollege.ca" method="post">
 
 	<label for="txtFirsName">First Name:</label>
-	<input id="txtFirsName" name="txtFirstName" size="25" tabindex="1" type="text" required="required"/><br />
+	<input id="txtFirstName" name="txtFirstName" size="25" tabindex="1" type="text" required="required"/><br />
 
 	<label for="txtLastName">Last Name:</label>
 	<input id="txtLastName" name="txtLastName" size="25" tabindex="3" type="text" required="required"/><br /><br />
@@ -47,31 +48,42 @@
 	<input id="txtCity" name="txtCity" size="15" tabindex="7" type="text" required="required"/><br />
     
     <label for="txtZip">Postal Code:</label>
-	<input id="txtZip" name="txtZip" size="7" tabindex="9" type="text" required="required"/><br />
+	<input id="txtZip" name="txtZip" title="Zip Code must have format a0a 0a0" pattern="[A-Za-z][0-9][A-Za-z] [0-9][A-Za-z][0-9]" size="7" tabindex="9" type="text" required="required"/><br />
     
     <label for="txtProvince">Province:</label>
-	<input id="txtProvince" name="txtProvince" size="2" tabindex="11" type="text" required="required"/><br />
-    <p id="addressError" class="errorMsg"></p>
+	<input id="txtProvince" name="txtProvince" size="2" tabindex="11" type="text" required="required"/>
+    <p id="addressError" class="errorMsg"> </p>
     
     <label for="txtAge">Age:</label>
-	<input id="txtAge" name="txtAge" size="50" tabindex="5" type="text" required="required"/><br />
+	<input id="txtAge" name="txtAge" title="Must be numbers" pattern="[0-9][0-9]"size="3" tabindex="13" type="text" required="required"/><br />
     <p id="ageError" class="errorMsg"></p>
     
     <label for="txtCreatePWD">Create PWD:</label>
-	<input id="txtCreatePWD" name="txtCreatePWD" size="16" tabindex="7" type="password" required="required"/><br />
+	<input id="txtCreatePWD" name="txtCreatePWD" size="16" tabindex="15" type="password" required="required"/><br />
 
 	<label for="txtConfirmPWD">Confirm PWD:</label>
-	<input id="txtConfirmPWD" name="txtConfirmPWD" size="16" tabindex="9" type="password" required="required"/><br />
+	<input id="txtConfirmPWD" name="txtConfirmPWD" size="16" tabindex="17" type="password" required="required"/><br />
     <p id="pwdError" class="errorMsg"></p>
     
     <label for="txtEmail">Email:</label>
-    <input id="txtEmail" name="txtEmail" size="30" tabindex="5" type="email" required="required" placeholder="account@domain.com"/><br />
+    <input id="txtEmail" name="txtEmail" size="30" tabindex="19" type="email" required="required" placeholder="account@domain.com"/><br />
     <p id="emailError" class="errorMsg"></p><br />
 
-	<label><input name="btnSubmit" tabindex="41" type="submit" value="Registration Now"/></label>
-	<input name="btnReset" tabindex="43" type="reset" value="Clear Form"/>
+	<label><input name="btnSubmit" id="btnSubmit" tabindex="21" type="button" value="Registration Now"/></label>
+    <input name="btnReset" tabindex="23" type="reset" value="Clear Form"/>
 	</form>
         </fieldset>
+    <fieldset id="profile">
+                <legend>Profile Information</legend>
+        <div id="Name">
+                <h4>Name:</h4>
+                <p id="fullName"></p>
+            </div>
+            <div id="emailSection">
+                <h4>Email address:</h4>
+                <p id="profileEmail"></p>
+            </div>
+    </fieldset>
 <footer>
 	<a href="../index.html">Back to Index</a>
 	<p id="copyright">&copy;&nbsp;Copyright Rafael Aguiar - COMP125 - Form with JavaScript validation</p>
